@@ -14,7 +14,7 @@ if __name__ == '__main__':
     def negative():
         print("Отрицательное")
     def test():
-        a = int(input())
+        a = int(input("Введите число: "))
         if a > 0:
             positive()
         elif a < 0:
