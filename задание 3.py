@@ -11,6 +11,6 @@ if __name__ == '__main__':
     n = 1
     while n!=0:
       a *= n
-      n = int(input())
-    print(a)
+      n = int(input("Введите число: "))
+    print("Произведение чисел:", a)
   test()
